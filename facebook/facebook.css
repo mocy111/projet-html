@@ -1,0 +1,203 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    height: 640px;
+    
+}
+
+.bloc-h
+{
+    background-color: rgb(59,89,152);
+    height: 12%;
+    border: 1px solid darkblue;
+    font-family: tahoma;
+}
+.fb
+{
+    position: absolute;
+    color: white;
+    font-size: 38px;
+
+left: 180px;
+top: 15px;
+
+    text-decoration: none;
+   
+    font-weight: bold;
+}
+.conexion
+{
+    float: right;
+    color: white;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-right: 200px;
+}
+.mdp
+{
+    color: #9cb4d8
+}
+.bouton
+{
+    background-color: #4267b2;
+    height: 22px;
+    color: #fff; 
+    border: 1px solid darkblue;
+    border-radius: 2px;
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+}
+.bloc-g
+{
+    margin-left: 100px;
+    width: 55px;
+    left: 0;
+}
+.blabla
+{
+    
+    color: rgb(14,56,85);
+    font-size: 20px;
+    width: 450px;
+    font-weight: 700;
+    display: block;
+    
+    left: 180px;
+    word-spacing:-1;
+    margin-top: 70px;
+    
+}
+.groupe1
+{
+    display: flex;
+}
+.groupe2
+{
+    display: flex;
+}
+.groupe3
+{
+    display: flex;
+}
+
+.bloc-g{
+    width: 100%;
+}
+.bloc-d
+{
+    
+}
+h3
+{
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.inscription 
+{
+    background-color: #fff;
+     border: 1px solid rgb(189, 199,216);
+     border-radius: 5px;
+     font-weight: 400;
+     font-size: 18px ;
+     outline-color: rgb(77, 144,254);
+     padding-bottom: 8px;
+     padding-top: 8px;
+     padding-left: 10px ;
+     padding-right: 10px;
+     margin: 6px;
+     margin-left: -5px;
+
+}
+.total
+{
+    display: flex;
+}
+.born
+{
+    opacity: 0.7;
+    color: #1d2129; 
+    font-size: 19px;
+
+}
+select
+{
+    background-color: #fff;
+    border: 1px solid rgb(189, 199,216);
+    font-size: 13px;
+    font-weight: 400;
+    height: 35px;
+    width: 70px;
+    margin-left: 8px;
+    margin: -2;
+}
+.genre
+{
+    opacity: 0.7;
+    color: rgb(29,33, 41);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3px;
+    padding-right: 18px;
+    margin-right: 316px;
+}
+.sign
+{
+    width: 194px;
+    height: 39px;
+    background-color:rgb(78, 185, 119);
+    border: 1px solid rgb(59, 118, 34);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-top: -18px;
+
+
+}
+.celebrity
+{
+    margin-top: 5px;
+    
+
+}
+@media screen and (max-width:750px)
+{
+    .total
+    {
+        display: inline-block;
+        margin: auto;
+    }
+    .bloc-g
+    {
+        margin: auto;
+
+    }
+    .bloc-d
+    {
+        margin: auto;
+    }
+    .bloc-h 
+    {
+        height: 25%;
+    }
+    .fb
+    {
+        position: relative;
+    }
+}
+
+
+
+
+
+
+

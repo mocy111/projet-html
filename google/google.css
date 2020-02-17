@@ -1,0 +1,140 @@
+html
+{
+    height: 100%;
+}
+body
+{
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+
+.bloc-h
+{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.lien:hover
+{
+ text-decoration: underline;
+}
+.lien
+{
+    color: black;
+}
+
+.sign
+{
+    background-color: #4484f1;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 15px;
+}
+.image
+{
+    display: block;
+    margin: auto;
+    margin-top: 115px;
+    width: 330px;
+}
+.input
+{
+   width: 500px;
+   height:30px ;
+   margin:auto;
+   border-radius: 20px;
+   display: block;
+   outline: none;
+   background: url(micro6.jpg) no-repeat right;
+   
+}
+.input:hover
+{
+ù    box-shadow: 0px 0px 5px rgb(167, 163, 163);
+    
+
+}
+.bout
+{
+    margin: auto;
+    
+}
+
+.search
+{
+ background-color: rgb(240, 238, 238);
+ padding: 10px;
+}
+.lucky
+{
+    background-color: rgb(240, 238, 238);
+}
+.lucky:hover
+{
+    border-style: solid;
+    border-color:rgb(224, 223, 223);
+}
+.search:hover
+{
+    border-style: solid;
+    border-color:rgb(224, 223, 223);
+}
+
+
+.foot
+{
+    border:gray solid 0.5px;
+    display: block;
+    justify-content: flex-end;
+    background-color: #f2f2f2;
+    margin-top: 100px;
+    padding: 20px;
+    color: #000;
+}
+.lien-gauche
+{
+    float: left;
+}
+.lien-droite
+{
+    float: right;
+}
+.pays
+{
+    text-align: start;
+    border-bottom: gray solid 0.5px;
+  
+}
+.langue
+{
+    text-align: center;
+    margin-top: 20px;
+}
+@media screen and (max-width:1200px)
+{
+    body 
+    {
+        margin: auto;
+    }
+}
+
+
+
+    

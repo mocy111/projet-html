@@ -1,0 +1,86 @@
+
+header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 300px;
+    background-color: rgb(112, 112, 112);
+    border-bottom:10px gold solid;
+}
+.info_photo
+{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    
+}
+.photo
+{
+    margin-top: 1em;
+    border: solid 5px gold;
+    border-radius: 280px 280px;
+   
+}
+
+.info
+{
+    margin:20px ;
+    flex: 2;
+    float: right;
+}
+.info_pr_bordure
+{
+    
+    border-bottom: gold solid;
+}
+.a_propos_de_moi
+{
+    border-bottom:  black solid;
+}
+.contact
+{
+    border-bottom:  black solid;
+}
+.competence
+{
+    border-bottom:  black solid;
+}
+.objectif_carriere
+{
+    border-bottom:  black solid;
+}
+.background
+{
+    border-bottom:  black solid;
+}
+.centre_interet
+{
+    border-bottom:  black solid;
+}
+.conteneur-total
+{
+    display: flex;
+
+    justify-content: space-between;
+}
+.conteneur-block2
+{
+    margin-left: 20px;
+    flex: 2;
+    justify-content:right;
+}
+.conteneur-block1
+{
+    padding-right: 2.5em;
+    border-right: black solid;
+    flex: 1;
+}
+pre
+{
+	font-family: Times New Roman;
+}
+
+@media screen and (max-width: 1280px)
+{
+    /* Rédigez vos propriétés CSS ici */
+}
